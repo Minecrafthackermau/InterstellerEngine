@@ -1,0 +1,41 @@
+OFbody {
+	background-color: #333;
+	color: white;
+	font-family: Arial, sans-serif;
+}
+
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #444;
+	padding: 20px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+input[type=password] {
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	margin: 10px;
+}
+
+input[type=button] {
+	background-color: #555;
+	color: white;
+	border-radius: 5px;
+	border: none;
+	padding: 10px;
+	cursor: pointer;
+}
+
+input[type=button]:hover {
+	background-color: #666;
+}
+
+#message {
+	margin-top: 20px;
+	font-size: 18px;
+}
